@@ -1,0 +1,6 @@
+{
+  "train_rows": 2342,
+  "test_rows": 586,
+  "feature_count": 204,
+  "preprocessor": "artifacts\\preprocessor.pkl"
+}
