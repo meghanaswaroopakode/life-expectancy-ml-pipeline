@@ -1,0 +1,50 @@
+{
+    "lab": 7,
+    "project": "Life Expectancy Prediction",
+    "pipeline": "End-to-End ML Pipeline",
+    "stages": [
+        {
+            "stage": "Data Validation",
+            "module": "src.validate_data",
+            "status": "PASSED",
+            "exit_code": 0
+        },
+        {
+            "stage": "Preprocessing",
+            "module": "src.preprocess_pipeline",
+            "status": "PASSED",
+            "exit_code": 0
+        },
+        {
+            "stage": "Output Validation",
+            "module": "src.validate_outputs",
+            "status": "PASSED",
+            "exit_code": 0
+        },
+        {
+            "stage": "MLflow Training",
+            "module": "src.train_mlflow",
+            "status": "PASSED",
+            "exit_code": 0
+        },
+        {
+            "stage": "Model Evaluation",
+            "module": "src.evaluate",
+            "status": "PASSED",
+            "exit_code": 0
+        },
+        {
+            "stage": "Model Registration",
+            "module": "src.register_model",
+            "status": "PASSED",
+            "exit_code": 0
+        },
+        {
+            "stage": "Reproducibility Validation",
+            "module": "src.validate_reproducibility",
+            "status": "PASSED",
+            "exit_code": 0
+        }
+    ],
+    "overall_status": "PASSED"
+}

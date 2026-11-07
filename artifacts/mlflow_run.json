@@ -1,7 +1,7 @@
 {
-  "run_id": "997b69fe1dc84728963119b61350245a",
+  "run_id": "fa9c3b86deba473b8e7ec2a07a7f1965",
   "experiment_id": "1",
-  "model_uri": "models:/m-45aa14e26e90431b93bd925dd436d3da",
+  "model_uri": "models:/m-e8bf9452d40343fcb5759e65c08bae11",
   "metrics": {
     "mae": 1.0521138711355,
     "rmse": 1.691746789580209,
