@@ -36,6 +36,11 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install -r requirements.txt
 
+      - name: Reset MLflow database for CI
+        run: |
+          rm -f artifacts/mlflow.db
+          rm -rf mlruns
+
       - name: Run Life Expectancy MLOps Pipeline
         run: python pipelines/run_lab7_pipeline.py
 
