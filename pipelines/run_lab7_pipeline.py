@@ -10,6 +10,7 @@ STAGES = [
     ("Data Validation", "src.validate_data"),
     ("Preprocessing", "src.preprocess_pipeline"),
     ("Output Validation", "src.validate_outputs"),
+    ("Baseline Model Training", "src.train"),
     ("MLflow Training", "src.train_mlflow"),
     ("Model Evaluation", "src.evaluate"),
     ("Model Registration", "src.register_model"),

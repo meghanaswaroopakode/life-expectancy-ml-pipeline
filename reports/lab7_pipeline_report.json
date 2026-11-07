@@ -22,6 +22,12 @@
             "exit_code": 0
         },
         {
+            "stage": "Baseline Model Training",
+            "module": "src.train",
+            "status": "PASSED",
+            "exit_code": 0
+        },
+        {
             "stage": "MLflow Training",
             "module": "src.train_mlflow",
             "status": "PASSED",

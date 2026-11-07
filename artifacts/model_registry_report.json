@@ -1,11 +1,11 @@
 {
   "model_name": "LifeExpectancyRegressor",
-  "version": "9",
+  "version": "10",
   "alias": "champion",
-  "source_run_id": "fa9c3b86deba473b8e7ec2a07a7f1965",
+  "source_run_id": "d73430bc3b81411683dca7e2aa3e1217",
   "smoke_test_predictions": [
     55.5773636904762,
     69.80509404761904,
-    82.41888452380955
+    82.41888452380954
   ]
 }
