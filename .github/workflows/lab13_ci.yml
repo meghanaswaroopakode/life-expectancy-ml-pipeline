@@ -5,6 +5,7 @@ on:
     branches: [main, master]
     paths:
       - "api/**"
+      - "src/**"
       - "tests/**"
       - "models/**"
       - "requirements.txt"
@@ -13,6 +14,7 @@ on:
   pull_request:
     paths:
       - "api/**"
+      - "src/**"
       - "tests/**"
       - "models/**"
       - "requirements.txt"
@@ -38,6 +40,9 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install -r requirements.txt
           python -m pip install pytest httpx
+
+      - name: Train baseline model
+        run: python -m src.train
 
       - name: Run Lab 13 API Integration Tests
         run: python -m pytest tests/test_lab13_integration.py -v
