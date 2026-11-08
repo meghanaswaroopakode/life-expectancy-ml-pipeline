@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: life-expectancy-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: life-expectancy
+  template:
+    metadata:
+      labels:
+        app: life-expectancy
+    spec:
+      containers:
+        - name: life-expectancy-api
+          image: life-expectancy-api:1.0
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 8000
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: 8000
+            initialDelaySeconds: 10
+            periodSeconds: 5
+          livenessProbe:
+            httpGet:
+              path: /health
+              port: 8000
+            initialDelaySeconds: 15
+            periodSeconds: 10

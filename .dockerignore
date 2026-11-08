@@ -1,0 +1,14 @@
+.git
+.venv
+venv
+__pycache__
+*.pyc
+.pytest_cache
+.ipynb_checkpoints
+artifacts/
+reports/
+logs/
+outputs/
+data/
+*.csv
+*.log
