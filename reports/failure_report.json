@@ -1,0 +1,156 @@
+{
+    "lab": 9,
+    "project": "Life Expectancy Prediction",
+    "title": "Failure Injection and Recovery",
+    "repetitions": 3,
+    "total_tests": 18,
+    "passed": 18,
+    "failed": 0,
+    "overall_status": "PASSED",
+    "results": [
+        {
+            "scenario": "Missing Dataset",
+            "repetition": 1,
+            "expected": "HALT",
+            "actual": "HALT",
+            "status": "PASSED",
+            "details": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"C:\\Users\\megha\\OneDrive\\Documents\\Desktop\\Life-Expectancy-MLOps\\src\\validate_data.py\", line 99, in <module>\n    main()\n  File \"C:\\Users\\megha\\OneDrive\\Documents\\Desktop\\Life-Expectancy-MLOps\\src\\validate_data.py\", line 33, in main\n    raw_data_path = get_data_path()\n                    ^^^^^^^^^^^^^^^\n  File \"C:\\Users\\megha\\OneDrive\\Documents\\Desktop\\Life-Expectancy-MLOps\\src\\common.py\", line 37, in get_data_path\n    raise FileNotFoundError(f\"Dataset not found. Expected it at {expected}.\")\nFileNotFoundError: Dataset not found. Expected it at data\\Life Expectancy Data.csv or Life Expectancy Data.csv."
+        },
+        {
+            "scenario": "Missing Dataset",
+            "repetition": 2,
+            "expected": "HALT",
+            "actual": "HALT",
+            "status": "PASSED",
+            "details": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"C:\\Users\\megha\\OneDrive\\Documents\\Desktop\\Life-Expectancy-MLOps\\src\\validate_data.py\", line 99, in <module>\n    main()\n  File \"C:\\Users\\megha\\OneDrive\\Documents\\Desktop\\Life-Expectancy-MLOps\\src\\validate_data.py\", line 33, in main\n    raw_data_path = get_data_path()\n                    ^^^^^^^^^^^^^^^\n  File \"C:\\Users\\megha\\OneDrive\\Documents\\Desktop\\Life-Expectancy-MLOps\\src\\common.py\", line 37, in get_data_path\n    raise FileNotFoundError(f\"Dataset not found. Expected it at {expected}.\")\nFileNotFoundError: Dataset not found. Expected it at data\\Life Expectancy Data.csv or Life Expectancy Data.csv."
+        },
+        {
+            "scenario": "Missing Dataset",
+            "repetition": 3,
+            "expected": "HALT",
+            "actual": "HALT",
+            "status": "PASSED",
+            "details": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"C:\\Users\\megha\\OneDrive\\Documents\\Desktop\\Life-Expectancy-MLOps\\src\\validate_data.py\", line 99, in <module>\n    main()\n  File \"C:\\Users\\megha\\OneDrive\\Documents\\Desktop\\Life-Expectancy-MLOps\\src\\validate_data.py\", line 33, in main\n    raw_data_path = get_data_path()\n                    ^^^^^^^^^^^^^^^\n  File \"C:\\Users\\megha\\OneDrive\\Documents\\Desktop\\Life-Expectancy-MLOps\\src\\common.py\", line 37, in get_data_path\n    raise FileNotFoundError(f\"Dataset not found. Expected it at {expected}.\")\nFileNotFoundError: Dataset not found. Expected it at data\\Life Expectancy Data.csv or Life Expectancy Data.csv."
+        },
+        {
+            "scenario": "Invalid Numeric Datatype",
+            "repetition": 1,
+            "expected": "HALT",
+            "actual": "HALT",
+            "status": "PASSED",
+            "details": "Column: Year\nTraceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"C:\\Users\\megha\\OneDrive\\Documents\\Desktop\\Life-Expectancy-MLOps\\src\\validate_data.py\", line 99, in <module>\n    main()\n  File \"C:\\Users\\megha\\OneDrive\\Documents\\Desktop\\Life-Expectancy-MLOps\\src\\validate_data.py\", line 64, in main\n    raise ValueError(\nValueError: Invalid numeric datatype detected in column: Year"
+        },
+        {
+            "scenario": "Invalid Numeric Datatype",
+            "repetition": 2,
+            "expected": "HALT",
+            "actual": "HALT",
+            "status": "PASSED",
+            "details": "Column: Year\nTraceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"C:\\Users\\megha\\OneDrive\\Documents\\Desktop\\Life-Expectancy-MLOps\\src\\validate_data.py\", line 99, in <module>\n    main()\n  File \"C:\\Users\\megha\\OneDrive\\Documents\\Desktop\\Life-Expectancy-MLOps\\src\\validate_data.py\", line 64, in main\n    raise ValueError(\nValueError: Invalid numeric datatype detected in column: Year"
+        },
+        {
+            "scenario": "Invalid Numeric Datatype",
+            "repetition": 3,
+            "expected": "HALT",
+            "actual": "HALT",
+            "status": "PASSED",
+            "details": "Column: Year\nTraceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"C:\\Users\\megha\\OneDrive\\Documents\\Desktop\\Life-Expectancy-MLOps\\src\\validate_data.py\", line 99, in <module>\n    main()\n  File \"C:\\Users\\megha\\OneDrive\\Documents\\Desktop\\Life-Expectancy-MLOps\\src\\validate_data.py\", line 64, in main\n    raise ValueError(\nValueError: Invalid numeric datatype detected in column: Year"
+        },
+        {
+            "scenario": "Missing Target Column",
+            "repetition": 1,
+            "expected": "HALT",
+            "actual": "HALT",
+            "status": "PASSED",
+            "details": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"C:\\Users\\megha\\OneDrive\\Documents\\Desktop\\Life-Expectancy-MLOps\\src\\validate_data.py\", line 99, in <module>\n    main()\n  File \"C:\\Users\\megha\\OneDrive\\Documents\\Desktop\\Life-Expectancy-MLOps\\src\\validate_data.py\", line 45, in main\n    raise ValueError(\nValueError: Required target column 'Life expectancy' is missing."
+        },
+        {
+            "scenario": "Missing Target Column",
+            "repetition": 2,
+            "expected": "HALT",
+            "actual": "HALT",
+            "status": "PASSED",
+            "details": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"C:\\Users\\megha\\OneDrive\\Documents\\Desktop\\Life-Expectancy-MLOps\\src\\validate_data.py\", line 99, in <module>\n    main()\n  File \"C:\\Users\\megha\\OneDrive\\Documents\\Desktop\\Life-Expectancy-MLOps\\src\\validate_data.py\", line 45, in main\n    raise ValueError(\nValueError: Required target column 'Life expectancy' is missing."
+        },
+        {
+            "scenario": "Missing Target Column",
+            "repetition": 3,
+            "expected": "HALT",
+            "actual": "HALT",
+            "status": "PASSED",
+            "details": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"C:\\Users\\megha\\OneDrive\\Documents\\Desktop\\Life-Expectancy-MLOps\\src\\validate_data.py\", line 99, in <module>\n    main()\n  File \"C:\\Users\\megha\\OneDrive\\Documents\\Desktop\\Life-Expectancy-MLOps\\src\\validate_data.py\", line 45, in main\n    raise ValueError(\nValueError: Required target column 'Life expectancy' is missing."
+        },
+        {
+            "scenario": "NaN in Preprocessed Features",
+            "repetition": 1,
+            "expected": "HALT",
+            "actual": "HALT",
+            "status": "PASSED",
+            "details": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"C:\\Users\\megha\\OneDrive\\Documents\\Desktop\\Life-Expectancy-MLOps\\src\\validate_outputs.py\", line 40, in <module>\n    main()\n  File \"C:\\Users\\megha\\OneDrive\\Documents\\Desktop\\Life-Expectancy-MLOps\\src\\validate_outputs.py\", line 34, in main\n    raise ValueError(\"Preprocessed features contain NaN or infinite values.\")\nValueError: Preprocessed features contain NaN or infinite values."
+        },
+        {
+            "scenario": "NaN in Preprocessed Features",
+            "repetition": 2,
+            "expected": "HALT",
+            "actual": "HALT",
+            "status": "PASSED",
+            "details": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"C:\\Users\\megha\\OneDrive\\Documents\\Desktop\\Life-Expectancy-MLOps\\src\\validate_outputs.py\", line 40, in <module>\n    main()\n  File \"C:\\Users\\megha\\OneDrive\\Documents\\Desktop\\Life-Expectancy-MLOps\\src\\validate_outputs.py\", line 34, in main\n    raise ValueError(\"Preprocessed features contain NaN or infinite values.\")\nValueError: Preprocessed features contain NaN or infinite values."
+        },
+        {
+            "scenario": "NaN in Preprocessed Features",
+            "repetition": 3,
+            "expected": "HALT",
+            "actual": "HALT",
+            "status": "PASSED",
+            "details": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"C:\\Users\\megha\\OneDrive\\Documents\\Desktop\\Life-Expectancy-MLOps\\src\\validate_outputs.py\", line 40, in <module>\n    main()\n  File \"C:\\Users\\megha\\OneDrive\\Documents\\Desktop\\Life-Expectancy-MLOps\\src\\validate_outputs.py\", line 34, in main\n    raise ValueError(\"Preprocessed features contain NaN or infinite values.\")\nValueError: Preprocessed features contain NaN or infinite values."
+        },
+        {
+            "scenario": "Missing Model Detection",
+            "repetition": 1,
+            "expected": "HALT",
+            "actual": "HALT",
+            "status": "PASSED",
+            "details": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"C:\\Users\\megha\\OneDrive\\Documents\\Desktop\\Life-Expectancy-MLOps\\src\\evaluate.py\", line 25, in <module>\n    main()\n  File \"C:\\Users\\megha\\OneDrive\\Documents\\Desktop\\Life-Expectancy-MLOps\\src\\evaluate.py\", line 11, in main\n    raise FileNotFoundError(\"Run the Lab 3 training step before evaluation.\")\nFileNotFoundError: Run the Lab 3 training step before evaluation."
+        },
+        {
+            "scenario": "MLflow Champion Model Recovery",
+            "repetition": 1,
+            "expected": "RECOVERED",
+            "actual": "RECOVERED",
+            "status": "PASSED",
+            "details": "--- Regression Evaluation Report ---\nMAE : 1.0521\nRMSE: 1.6917\nR2  : 0.9669\n[SUCCESS] Report saved to artifacts\\evaluation_report.json"
+        },
+        {
+            "scenario": "Missing Model Detection",
+            "repetition": 2,
+            "expected": "HALT",
+            "actual": "HALT",
+            "status": "PASSED",
+            "details": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"C:\\Users\\megha\\OneDrive\\Documents\\Desktop\\Life-Expectancy-MLOps\\src\\evaluate.py\", line 25, in <module>\n    main()\n  File \"C:\\Users\\megha\\OneDrive\\Documents\\Desktop\\Life-Expectancy-MLOps\\src\\evaluate.py\", line 11, in main\n    raise FileNotFoundError(\"Run the Lab 3 training step before evaluation.\")\nFileNotFoundError: Run the Lab 3 training step before evaluation."
+        },
+        {
+            "scenario": "MLflow Champion Model Recovery",
+            "repetition": 2,
+            "expected": "RECOVERED",
+            "actual": "RECOVERED",
+            "status": "PASSED",
+            "details": "--- Regression Evaluation Report ---\nMAE : 1.0521\nRMSE: 1.6917\nR2  : 0.9669\n[SUCCESS] Report saved to artifacts\\evaluation_report.json"
+        },
+        {
+            "scenario": "Missing Model Detection",
+            "repetition": 3,
+            "expected": "HALT",
+            "actual": "HALT",
+            "status": "PASSED",
+            "details": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"C:\\Users\\megha\\OneDrive\\Documents\\Desktop\\Life-Expectancy-MLOps\\src\\evaluate.py\", line 25, in <module>\n    main()\n  File \"C:\\Users\\megha\\OneDrive\\Documents\\Desktop\\Life-Expectancy-MLOps\\src\\evaluate.py\", line 11, in main\n    raise FileNotFoundError(\"Run the Lab 3 training step before evaluation.\")\nFileNotFoundError: Run the Lab 3 training step before evaluation."
+        },
+        {
+            "scenario": "MLflow Champion Model Recovery",
+            "repetition": 3,
+            "expected": "RECOVERED",
+            "actual": "RECOVERED",
+            "status": "PASSED",
+            "details": "--- Regression Evaluation Report ---\nMAE : 1.0521\nRMSE: 1.6917\nR2  : 0.9669\n[SUCCESS] Report saved to artifacts\\evaluation_report.json"
+        }
+    ]
+}
