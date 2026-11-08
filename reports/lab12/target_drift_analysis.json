@@ -1,0 +1,8 @@
+{
+  "training_target_mean": 69.14901793339027,
+  "test_target_mean": 69.5283276450512,
+  "training_target_std": 9.577460742176898,
+  "test_target_std": 9.308451243299041,
+  "mean_difference": 0.3793097116609374,
+  "note": "Target-distribution comparison only; not proof of temporal concept drift."
+}

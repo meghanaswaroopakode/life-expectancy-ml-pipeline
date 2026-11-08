@@ -1,0 +1,7 @@
+{
+  "training_prediction_mean": 69.1640458232464,
+  "test_prediction_mean": 69.58745134097036,
+  "training_prediction_std": 9.408270637907787,
+  "test_prediction_std": 9.076562873830724,
+  "prediction_mean_difference": 0.42340551772396395
+}

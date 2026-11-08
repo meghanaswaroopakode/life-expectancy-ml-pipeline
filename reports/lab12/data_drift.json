@@ -1,0 +1,120 @@
+{
+  "comparison": "training_data_vs_test_data",
+  "features": {
+    "Year": {
+      "training_mean": 2007.5508112724167,
+      "test_mean": 2007.296928327645,
+      "standardized_mean_difference": 0.05512971472690485,
+      "drift_detected": false
+    },
+    "Adult Mortality": {
+      "training_mean": 166.11187019641332,
+      "test_mean": 159.53924914675767,
+      "standardized_mean_difference": 0.05288460498743092,
+      "drift_detected": false
+    },
+    "infant deaths": {
+      "training_mean": 30.20324508966695,
+      "test_mean": 31.22354948805461,
+      "standardized_mean_difference": 0.00896429631347763,
+      "drift_detected": false
+    },
+    "Alcohol": {
+      "training_mean": 4.6050480109739365,
+      "test_mean": 4.653996350364964,
+      "standardized_mean_difference": 0.012141431601027926,
+      "drift_detected": false
+    },
+    "percentage expenditure": {
+      "training_mean": 724.0954663172362,
+      "test_mean": 805.1686819536911,
+      "standardized_mean_difference": 0.04199290679203639,
+      "drift_detected": false
+    },
+    "Hepatitis B": {
+      "training_mean": 80.74762908324553,
+      "test_mean": 81.80922431865828,
+      "standardized_mean_difference": 0.04225323078416672,
+      "drift_detected": false
+    },
+    "Measles": {
+      "training_mean": 2431.4530315969255,
+      "test_mean": 2413.4795221843005,
+      "standardized_mean_difference": 0.001571567021690775,
+      "drift_detected": false
+    },
+    "BMI": {
+      "training_mean": 38.053842832469776,
+      "test_mean": 38.9603448275862,
+      "standardized_mean_difference": 0.045191058268787304,
+      "drift_detected": false
+    },
+    "under-five deaths": {
+      "training_mean": 42.12467976088813,
+      "test_mean": 42.39761092150171,
+      "standardized_mean_difference": 0.001748232404683557,
+      "drift_detected": false
+    },
+    "Polio": {
+      "training_mean": 82.36512027491409,
+      "test_mean": 83.28227194492254,
+      "standardized_mean_difference": 0.03916889373934035,
+      "drift_detected": false
+    },
+    "Total expenditure": {
+      "training_mean": 5.904861111111111,
+      "test_mean": 6.0309963099631,
+      "standardized_mean_difference": 0.05020171772880175,
+      "drift_detected": false
+    },
+    "Diphtheria": {
+      "training_mean": 81.9463058419244,
+      "test_mean": 83.82444061962134,
+      "standardized_mean_difference": 0.07800043673746267,
+      "drift_detected": false
+    },
+    "HIV/AIDS": {
+      "training_mean": 1.7915029888983773,
+      "test_mean": 1.5726962457337885,
+      "standardized_mean_difference": 0.042209927955405374,
+      "drift_detected": false
+    },
+    "GDP": {
+      "training_mean": 7411.152515096893,
+      "test_mean": 7832.376265433673,
+      "standardized_mean_difference": 0.02962559241693596,
+      "drift_detected": false
+    },
+    "Population": {
+      "training_mean": 11892632.528902238,
+      "test_mean": 16288748.902913908,
+      "standardized_mean_difference": 0.0805303889323196,
+      "drift_detected": false
+    },
+    "thinness 1-19 years": {
+      "training_mean": 4.8742659758203795,
+      "test_mean": 4.756206896551724,
+      "standardized_mean_difference": 0.0265737983549778,
+      "drift_detected": false
+    },
+    "thinness 5-9 years": {
+      "training_mean": 4.9158894645941285,
+      "test_mean": 4.743793103448275,
+      "standardized_mean_difference": 0.03789668117665637,
+      "drift_detected": false
+    },
+    "Income composition of resources": {
+      "training_mean": 0.6269615732368896,
+      "test_mean": 0.6292374100719426,
+      "standardized_mean_difference": 0.010921123014949477,
+      "drift_detected": false
+    },
+    "Schooling": {
+      "training_mean": 12.001582278481013,
+      "test_mean": 11.991906474820144,
+      "standardized_mean_difference": 0.002890111546150129,
+      "drift_detected": false
+    }
+  },
+  "drifted_features": []
+}
